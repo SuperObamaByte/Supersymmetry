@@ -864,6 +864,16 @@ for (i = 1; i <= 8; i++) {
 	])
 }
 
+// Easier electrolyzer
+
+for (i = 1; i <= 8; i++) {
+	crafting.replaceShaped("gregtech:gregtech.machine.electrolyzer." + Globals.voltageTiers[i], metaitem('electrolyzer.'  + Globals.voltageTiers[i]), [
+			[tieredCables[i], tieredGlass[i], tieredCables[i]],
+			[tieredCables[i], hulls[i], tieredCables[i]],
+			[circuits[i], tieredPlates[i], circuits[i]]
+	])
+}
+
 // Tube Furnace
 
 for (i = 1; i <= 8; i++) {
