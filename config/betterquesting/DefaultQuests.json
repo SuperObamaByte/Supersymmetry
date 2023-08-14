@@ -35487,7 +35487,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §6EEPROM§r is what contains the code used to §6initialize a computer §rwhen it is being booted. \n\nSince configuring an EEPROM normally requires a computer, you are going to \"§3download§o§r\" the code from this book! Simply make an empty EEPROM, and you\u0027ll receive a configured one by trading with this page.\n\nThis page will refresh every 45 seconds.\n§c\n§lTurning on your computer can be done with the power button on the left.",
+          "desc:8": "The §6EEPROM§r is what contains the code used to §6initialize a computer §rwhen it is being booted. \n\nSince configuring an EEPROM normally requires a computer, you are going to \"§3download§o§r\" the code from this book! Simply make an empty EEPROM, and you\u0027ll receive a configured one by trading with this page. Alternatively, you can make the EEPROM using the crafting recipe.\n\nThis page will refresh every 45 seconds.\n§c\n§lTurning on your computer can be done with the power button on the left.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37398,7 +37398,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The BIOS now is working, but it\u0027s §6not finding a file system§r to boot from. You will require an §cOpenOS§r disk to boot into the computer. OpenOS is our operating system.\n\nSince crafting an operating system normally requires a computer, you will just \"download\" the code from here, like the last page.",
+          "desc:8": "The BIOS now is working, but it\u0027s §6not finding a file system§r to boot from. You will require an §cOpenOS§r disk to boot into the computer. OpenOS is our operating system.\n\nSince crafting an operating system normally requires a computer, you will just \"download\" the code from here, like the last page. Alternatively, you can use the recipe.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,

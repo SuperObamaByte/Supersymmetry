@@ -1256,6 +1256,12 @@ crafting.addShaped('opencomputers:scrench', item('opencomputers:wrench'), [
     [null, ore('ingotSteel'), null]
 ])
 
+//manual
+crafting.addShaped('opencomputers:manual', item('opencomputers:tool', 4), [
+    [item('minecraft:book'), ore('circuitLv'), null],
+    [null, null, null],
+    [null, null, null]
+])
 //disk platter
 	mods.gregtech.assembler.recipeBuilder()
 			.inputs(ore('lensGlass') * 4)
