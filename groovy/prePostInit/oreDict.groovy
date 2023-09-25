@@ -199,18 +199,6 @@ for (type in StoneVariantBlock.StoneType.values()) {
     OreDictionary.registerOre('stone', variant)
 }
 
-//Saw oredict
-
-ore('toolSaw').remove(item('notreepunching:saw/iron'))
-ore('toolSaw').remove(item('notreepunching:saw/gold'))
-ore('toolSaw').remove(item('notreepunching:saw/diamond'))
-
-//No tree punching knife fixes
-
-ore('toolKnife').remove(item('notreepunching:knife/iron'))
-ore('toolKnife').remove(item('notreepunching:knife/gold'))
-ore('toolKnife').remove(item('notreepunching:knife/diamond'))
-
 //Manual Fixes
 ore('stickWood').add(item('minecraft:stick'))
 ore('blockConcrete').add(item('industrialrenewal:concrete'))
@@ -240,16 +228,3 @@ mods.jei.hideCategory('techguns.camobench')
 mods.jei.hideCategory('gregtech:combustion_generator')
 
 mods.jei.hideCategory('minecraft.anvil')
-
-//NTP knives
-/* //custom oredicts break with custom transforms, will report this bug today
-def name_knifeNTP = [
-    'notreepunching:knife/flint',
-    'notreepunching:knife/iron',
-    'notreepunching:knife/gold',
-    'notreepunching:knife/diamond',
-]
-for (knife in name_knifeNTP) {
-    ore('knifeNTP').add(item(knife))
-}
-*/
